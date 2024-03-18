@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">   
+  <title>Profile card component</title>
+</head>
+<body class="bg-Dark-cyan w-screen h-screen flex justify-center items-center">
+  <article class="w-[330px] h-[400px] bg-card-background rounded-xl overflow-hidden flex flex-col items-center relative">
+    <img class="h-[150px] w-full"src="/images/bg-pattern-card.svg" alt="bg-pattern-card">
+    <section class="flex flex-col items-center justify-end w-full h-[150px] gap-1">
+        <img class="w-28 h-28 absolute top-[92px] left-auto border-4 border-card-background rounded-full"src="/images/image-victor.jpg" alt="image-victor">
+        <div class="flex gap-2">
+          <h1 class="font-Kumb-sans text-[18px] font-[700] text-Very-dark-desaturated-blue">Victor Crest</h1>
+          <span class="font-Kumb-sans text-[18px] font-[400] text-Dark-grayish-blue">26</span>
+        </div>
+      <p class="mb-6 font-Kumb-sans text-[16px] font-[400] text-Dark-grayish-blue">London</p>
+    </section>
+    <section class="w-full border-t-2 border-Dark-gray border-opacity-20 flex items-center justify-evenly flex-grow font-Kumb-sans text-[18px] font-[700] text-Very-dark-desaturated-blue">
+      <div class="text-center">
+        <h1>80K</h1>
+        <p class="font-Kumb-sans text-[12px] font-[400] text-Dark-grayish-blue tracking-widest">Followers</p>
+      </div>
+      <div class="text-center">
+        <h1>803K</h1>
+        <p class="font-Kumb-sans text-[12px] font-[400] text-Dark-grayish-blue tracking-widest">Likes</p>
+      </div>
+      <div class="text-center">
+        <h1>1.4K</h1>
+        <p class="font-Kumb-sans text-[12px] font-[400] text-Dark-grayish-blue tracking-widest">Photos</p>
+      </div>
+    </section>
+  </article>
+</body>
+</html>
